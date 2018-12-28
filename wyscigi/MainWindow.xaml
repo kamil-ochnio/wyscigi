@@ -1,0 +1,17 @@
+﻿<Window x:Class="wyscigi.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wyscigi"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Canvas HorizontalAlignment="Left" Height="60" Margin="30,20,0,0" VerticalAlignment="Top" Width="60">
+            <Canvas Height="100" Canvas.Left="30" Canvas.Top="55" Width="100">
+                <Canvas Height="100" Width="100"/>
+            </Canvas>
+        </Canvas>
+
+    </Grid>
+</Window>
